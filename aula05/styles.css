@@ -1,0 +1,98 @@
+
+
+/*ex5*/
+h1 {
+    color: blue;
+
+}
+
+h2 {
+    color:red;
+    font-style: italic;
+}
+
+/*ex6*/
+p {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*ex7*/
+hr {
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid; /*sem esta linha (e meter o border-color: blue), o hr aparece blue com sombra, ie aparece em 3D)*/    
+    border-radius: 20px;
+}
+
+/*ex8*/
+#link_site_ua {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#link:link
+/*usar pseudo classes de modo que, sempre de um estado x, aparece y. São boas práticas*/
+
+
+/*no caso de já ter vistado, isto acontece*/
+#ua:visited {
+    color:chocolate;
+}
+
+/*fim do cod q fiz da aula04*/
+
+ul.menuv { 
+    /*
+    width: 200px; 
+    # aqui NÃO escrever width pq estou a limitar o espaco*/
+    padding: 0;
+    background-color: black;  
+    list-style: none; /*tira os pontinhos de lista*/
+    /*
+    display: flex;
+    */
+}
+
+/*como meter o menu em horizontal??
+
+escrevo dosplay: inline-block
+em ul.menu li
+
+#isto faz q os elemets fiquem uns a seguir dos outrs (na msm linha)
+
+outra solucao poderia ser 
+display flex
+em ul.menuv{}
+
+*/
+    
+ul.menuv li{
+    padding: 14px 16px;
+    border-right: 1px solid #bbb; 
+    text-align: center;
+    
+    display: inline-block;
+    /**/
+} 
+      
+
+ul.menuv li.active {
+    background-color: green;
+}
+
+ul.menuv li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+        
+/*ex4*/
+/*
+
+testar
+
+border: 1px dotted red (tracejado)
+
+border-collapse: separate ("junta" as linhas de border e margem numa so numa)*/
